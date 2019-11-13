@@ -331,10 +331,12 @@ function _clearFile(file) {
     if (!file) {
         return;
     }
-
-    if (file.$request) {
-        file.$request.abort();
-    }
+    
+    try {
+        if (file.$request) {
+            file.$request.abort();
+        }
+    catch (e) {}
 
     // Clear errors from global stack.
     for (i = 0, ii = this.$vm.errors.length; i < ii; i++) {
