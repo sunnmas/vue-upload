@@ -1,24 +1,24 @@
 {
-  "name": "@websanova/vue-upload",
+  "name": "@sunnmas/vue-upload",
 
-  "description": "A simple, light weight and intuitive upload control for Vue.js.",
+  "description": "A simple, light weight and intuitive upload control for Vue.js. Author Websanova with sunnmas edition",
   
   "keywords": ["vue", "vue.js", "upload", "dropzone", "plugin"],
 
   "author": {
-    "name": "Websanova",
+    "name": "sunnmas",
     "url": "http://websanova.com",
-    "username": "websanova",
-    "email": "rob@websanova.com"
+    "username": "sunnmas",
+    "email": "anton.sun.17@yandex.ru"
   },
   
   "main": "dist/vue-upload.min.js",
   
-  "version": "1.3.2-beta",
+  "version": "1.3.3-beta",
   
   "repository": {
     "type": "git",
-    "url": "https://github.com/websanova/vue-upload"
+    "url": "https://github.com/sunnmas/vue-upload.git"
   },
   
   "licenses": "MIT, GPL",
